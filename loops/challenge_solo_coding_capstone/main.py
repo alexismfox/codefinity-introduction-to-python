@@ -12,6 +12,6 @@ for item in inventory:
     if current < 30: 
         print(f"{item} need restocking.")
     elif current > 100:
-        print(f"{item} at the discounted price of {discounted_price}. ")
+        print(f"{item} should be sold at the discounted price of {discounted_price}. ")
     else:
         print(f"{item} should be sold at the regular price of {regular_price}.")
